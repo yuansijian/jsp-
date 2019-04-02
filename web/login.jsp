@@ -58,12 +58,12 @@
     <p id="image_logo">
         <img src="img/1.ico">
     </p>
-    <form method="post" action="login_index.jsp">
+    <form method="post" action="LoginServlet">
         <p>
-            <label class="label_input">用户名</label><input name="name" type="text" id="username" class="text_field" value="<%=username%>">
+            <label class="label_input">用户名</label><input name="username" type="text" id="username" class="text_field" value="<%=username%>">
         </p>
         <p>
-            <label class="label_input">密码</label><input name="pwd" type="password" id="password" class="text_field" value="<%=password%>">
+            <label class="label_input">密码</label><input name="password" type="password" id="password" class="text_field" value="<%=password%>">
         </p>
         <div id="login_control">
             <input type="submit" id="btn_login" value="登录" onclick="login()"><a id="forget_pwd" href="forget_pwd.html">忘记密码？</a>
